@@ -1,0 +1,24 @@
+
+.line{
+    width: 100%;
+    height: 0%;
+    background-color: #eec417;
+    border: 3px solid #eec417    ;
+}
+.collapse{
+    display: flex;
+    justify-content: flex-end;
+}
+@media only screen and (max-width: 425px) {
+ 
+    .navbar{
+        width: 100%;
+      
+    }
+    .collapse{
+        justify-content: flex-start;
+    }
+    .above_navbar_div{
+        margin: 0;
+    }
+  }
