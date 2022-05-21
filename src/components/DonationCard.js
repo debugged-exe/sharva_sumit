@@ -13,12 +13,11 @@ const DonationCard = () => {
       <h1 className="text-white">Our Recent Causes to Serve Better</h1>
         <div
           id="carouselExampleDark"
-          class="carousel carousel-dark slide"
-          data-bs-ride="carousel"
-        >
-          
+          class="carousel  slide"
+          data-bs-ride="carousel"> 
+
           <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="3000">
+            <div class="carousel-item active" data-bs-interval="5000">
               <div className="image_carousel_box ">
                 <div class="card bg-transparent" >
                   <img src={gallery_img_2} class="card-img-top" alt={carousal_image1} />
@@ -56,7 +55,7 @@ const DonationCard = () => {
               </div>
               
             </div>
-            <div class="carousel-item " data-bs-interval="3000">
+            <div class="carousel-item " data-bs-interval="5000">
               <div className="image_carousel_box ">
                 <div class="card bg-transparent" >
                   <img src={gallery_img_4} class="card-img-top"  />
@@ -95,7 +94,7 @@ const DonationCard = () => {
               </div>
               
             </div>
-            <div class="carousel-item " data-bs-interval="3000">
+            <div class="carousel-item " data-bs-interval="5000">
               <div className="image_carousel_box ">
                 <div class="card bg-transparent" >
                   <img src={gallery_img_3} class="card-img-top" alt={carousal_image1} />

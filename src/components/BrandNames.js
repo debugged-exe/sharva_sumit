@@ -2,7 +2,7 @@ import React from 'react'
 import brand_img from "./images/solution.png";
 const BrandNames = () => {
   return (
-    <div><div className="container bg-dark rounded text-white">
+    <div><div className="container  rounded text-dark fw-5">
     <p className='m-2 p-2'>
 
 

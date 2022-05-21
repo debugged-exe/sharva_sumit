@@ -34,35 +34,35 @@ const Home = () => {
         data-bs-ride="carousel"
       >
         <div class="carousel-inner">
-          <div class="carousel-item active img-gradient" data-bs-interval="3000">
+          <div class="carousel-item active img-gradient" data-bs-interval="5000">
             <img
               src={gallery_img_4}
               class="d-block w-100"
               alt="error"
             />
-            <div class="carousel-caption d-md-block">
+            <div class="carousel-caption">
         <h1>First slide label</h1>
         <p>Some representative placeholder content for the first slide.</p>
       </div>
           </div>
-          <div class="carousel-item  img-gradient" data-bs-interval="3000">
+          <div class="carousel-item  img-gradient" data-bs-interval="5000">
             <img
               src={gallery_img_4}
               class="d-block w-100"
               alt="error"
             />
-            <div class="carousel-caption  d-md-block">
+            <div class="carousel-caption  ">
         <h1>First slide label</h1>
         <p>Some representative placeholder content for the first slide.</p>
       </div>
           </div>
-          <div class="carousel-item img-gradient" data-bs-interval="3000">
+          <div class="carousel-item img-gradient" data-bs-interval="5000">
             <img
               src={gallery_img_4}
               class="d-block w-100"
               alt="error"
             />
-            <div class="carousel-caption d-md-block">
+            <div class="carousel-caption">
         <h1>First slide label</h1>
         <p>Some representative placeholder content for the first slide.</p>
       </div>

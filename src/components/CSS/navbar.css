@@ -8,6 +8,10 @@
 .collapse{
     display: flex;
     justify-content: flex-end;
+    width: 100%;
+}
+.above_navbar_div{
+    margin: 0 !important;
 }
 @media only screen and (max-width: 425px) {
  
@@ -18,7 +22,5 @@
     .collapse{
         justify-content: flex-start;
     }
-    .above_navbar_div{
-        margin: 0;
-    }
+    
   }
