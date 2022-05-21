@@ -2,9 +2,18 @@
     width: 100%;
  
 }
-.carousel-item img{
+.carousel-item .img{
     /* width: 70%; */
     height: 91vh;
+    background-image:linear-gradient(to top, #edde5d7c, #f096193b),
+    url('../images/gallery_img_4.jpg');
+    /* position: relative; */
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* background-attachment: fixed; */
+    background-size: cover;
+  color: white; 
 
 }
 .carousel-caption
@@ -22,6 +31,7 @@
       justify-content: center;
       align-items: center;
       text-align: center;
+     
   }
 
 
@@ -153,6 +163,10 @@ background: linear-gradient(to top, #edde5d97, #f096196b)
     border : 3px solid #ebc219;
     border-radius: 10px;
 }
+.text-yellow{
+  color: #ebc219;
+  /* background-color: #ebc219; */
+}
 .image_carousel_box{
     width: 100vw;
     display: flex;
@@ -171,7 +185,7 @@ background: linear-gradient(to top, #edde5d97, #f096196b)
   /* border-radius: 10px; */
 }
 .brand_names img{
-  margin: 20px;
+  margin: 0px;
 }
 /* css for gallery section */
 .gallery_section{
@@ -181,8 +195,9 @@ background: linear-gradient(to top, #edde5d97, #f096196b)
   width: 25%;
   cursor: pointer;
 }
-.gallery_section_img img :hover{
+.hoverimage :hover{
   transform: scale(2) ;
+  border: #b20a2c 10px solid;
 }
 
 /* css for join us  */
@@ -232,7 +247,8 @@ background: linear-gradient(to top, #edde5d97, #f096196b)
 
 }
 .contact-us .contact_us_form ::placeholder{
-  color: white;
+ color: black;
+
 }
 .contact-us .contact_us_form input{
   width: 100%;
@@ -241,9 +257,19 @@ background: linear-gradient(to top, #edde5d97, #f096196b)
   padding: 5px;
 
   background-color:#ebc219;}
-
+.input_box_1{
+  width: 92%;
+}
+.input_box_2{
+  width: 92%;
+}
+.form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .contact-us .contact_us_form textarea{
-  width: 80%;
+  width: 90%;
   margin: 15px;
   border: 0px;
   padding: 12px;
@@ -255,11 +281,11 @@ background: linear-gradient(to top, #edde5d97, #f096196b)
   .contact_us_form .button button{
     background-color: #ebc219;
     border: 0px;
-    color: white;
+    color: black;
   }
   footer .line{
     width: 100%;
     height: 0%;
     background-color: #eec417;
-    border: 8px solid #eec417    ;
+    border: 6px solid #eec417    ;
 }

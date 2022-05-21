@@ -1,6 +1,6 @@
 import React from "react";
-import gallery_img_3 from "./images/gallery_img_3.jpg";
-import brand_img from "./images/solution.png";
+import gallery_img_2 from "./images/gallery_img_2.jpg";
+import brand_img from "./images/amazon-pay.png";
 
 const AboutUs = () => {
   return (
@@ -31,7 +31,7 @@ const AboutUs = () => {
           </div>
 
         </div>
-        <div className="image_about "><img width='600px' src={gallery_img_3} alt="" /></div>
+        <div className="image_about "><img width='600px' src={gallery_img_2} alt="" /></div>
       </div>
     </div>
   );

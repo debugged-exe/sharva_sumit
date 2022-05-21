@@ -19,8 +19,8 @@ function App() {
      <DonationCard/>
      <BrandNames/>
      <Gallery/>
-     <MerchantDise/>
      <AboutUs/>
+     <MerchantDise/>
      <Footer/>
     </div>
   );

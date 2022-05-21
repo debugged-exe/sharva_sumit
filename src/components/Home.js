@@ -35,36 +35,24 @@ const Home = () => {
       >
         <div class="carousel-inner">
           <div class="carousel-item active img-gradient" data-bs-interval="5000">
-            <img
-              src={gallery_img_4}
-              class="d-block w-100"
-              alt="error"
-            />
+            <div className="img"></div>
             <div class="carousel-caption">
         <h1>First slide label</h1>
-        <p>Some representative placeholder content for the first slide.</p>
+        <p>Some representative placeholder content for the first slide.</p><div className="button m-4"><button className='bg-dark px-4 p-2 rounded-pill text-yellow '>join us now</button></div>
       </div>
           </div>
           <div class="carousel-item  img-gradient" data-bs-interval="5000">
-            <img
-              src={gallery_img_4}
-              class="d-block w-100"
-              alt="error"
-            />
+          <div className="img"></div>
             <div class="carousel-caption  ">
         <h1>First slide label</h1>
-        <p>Some representative placeholder content for the first slide.</p>
+        <p>Some representative placeholder content for the first slide.</p><div className="button m-4"><button className='bg-dark px-4 p-2 rounded-pill text-yellow '>join us now</button></div>
       </div>
           </div>
           <div class="carousel-item img-gradient" data-bs-interval="5000">
-            <img
-              src={gallery_img_4}
-              class="d-block w-100"
-              alt="error"
-            />
+          <div className="img"></div>
             <div class="carousel-caption">
         <h1>First slide label</h1>
-        <p>Some representative placeholder content for the first slide.</p>
+        <p>Some representative placeholder content for the first slide.</p><div className="button m-4"><button className='bg-dark px-4 p-2 rounded-pill text-yellow '>join us now</button></div>
       </div>
           </div>
         </div>

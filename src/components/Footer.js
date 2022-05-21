@@ -3,17 +3,17 @@ import map_image from "./images/mapbox.png";
 const Footer = () => {
   return (
     <div>
-      <div className="map m-3 d-flex  ">
+      <div className="map m-0 d-flex  ">
         <img src={map_image} alt="" />
-        <div className="form">
+        <div className="form m-4  ">
           <div class="contact-us">
             <div className="heading_contact">
               {" "}
-              <h5>Lorem ipsum dolor sit amet.</h5>{" "}
+              <h5 className="text-yellow">Lorem ipsum dolor sit amet.</h5>{" "}
               <h1>Lorem ipsum dolor sit amet.</h1>
             </div>
             <form action="#" className="my-5 contact_us_form">
-              <div className="d-flex m-2">
+              <div className="d-flex m-2 input_box_1">
                 <input
                   id="customerName"
                   name="customerName"
@@ -22,7 +22,7 @@ const Footer = () => {
                   type="text"
                 />
 
-                <input
+                <input  
                   id="customerEmail"
                   name="customerEmail"
                   required=""
@@ -31,7 +31,7 @@ const Footer = () => {
                 />
               </div>
 
-              <div className="d-flex m-2">
+              <div className="d-flex mx-2 input_box_1">
                 <input
                   id="customerPhone"
                   name="customerPhone"
