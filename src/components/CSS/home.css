@@ -195,9 +195,10 @@ background: linear-gradient(to top, #edde5d97, #f096196b)
   width: 25%;
   cursor: pointer;
 }
-.hoverimage :hover{
-  transform: scale(2) ;
-  border: #b20a2c 10px solid;
+.hoverimage:hover{
+  transform: scale(1.2)  ;
+  transition: all 0.2s 0s ease-in-out;
+  /* border: #b20a2c 10px solid; */
 }
 
 /* css for join us  */
@@ -288,4 +289,31 @@ background: linear-gradient(to top, #edde5d97, #f096196b)
     height: 0%;
     background-color: #eec417;
     border: 6px solid #eec417    ;
+}
+
+/* merchandise css */
+.merchandise{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.merchandise_main_box{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.merchandise_main_box .merchandise_content{
+  width: 50%;
+}
+.merchandise_main_box .line{
+  position:absolute;
+  margin-top: 250px;
+  /* top: 300px; */
+}
+.merchandise_main_box .line2{
+  margin-top: 300px;
+}
+.merchandise_main_box img{
+  z-index: 1;
 }
