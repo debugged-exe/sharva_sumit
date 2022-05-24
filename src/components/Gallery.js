@@ -16,14 +16,18 @@ const Gallery = () => {
         </h1>
       </div>
       <div className="gallery_section_img my-0 py-3  ">
-        <img className="hoverimage" src={gallery_img_2} alt="error" />
-        <img className="hoverimage" src={gallery_img_3} alt="error" />
-        <img className="hoverimage" src={gallery_img_4} alt="error" />
-        <img className="hoverimage" src={gallery_img_3} alt="error" />
-        <img className="hoverimage" src={gallery_img_1} alt="error" />
-        <img className="hoverimage" src={gallery_img_4} alt="error" />
-        <img className="hoverimage" src={gallery_img_1} alt="error" />
-        <img className="hoverimage" src={gallery_img_2} alt="error" />
+        <div className="gallery_section_1">
+          <img className="hoverimage" src={gallery_img_2} alt="error" />
+          <img className="hoverimage" src={gallery_img_3} alt="error" />
+          <img className="hoverimage" src={gallery_img_4} alt="error" />
+          <img className="hoverimage" src={gallery_img_3} alt="error" />
+        </div>
+        <div className="gallery_section_2">
+          <img className="hoverimage" src={gallery_img_1} alt="error" />
+          <img className="hoverimage" src={gallery_img_4} alt="error" />
+          <img className="hoverimage" src={gallery_img_1} alt="error" />
+          <img className="hoverimage" src={gallery_img_2} alt="error" />
+        </div>
       </div>
     </div>
   );

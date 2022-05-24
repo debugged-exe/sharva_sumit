@@ -9,7 +9,7 @@ const AboutUs = () => {
         <h5 >Lorem ipsum dolor sit amet.</h5>{" "}
         <h1 >Lorem ipsum dolor sit amet.</h1>
       </div>
-      <div className="main_div_about d-flex col justify-content-between">
+      <div className="main_div_about d-flex  justify-content-between">
         <div className="content_about d-flex row justify-content-center ">
           <div className="sec1 m-2 p-1">
              <h3><img width='50px' src={brand_img} alt="" />  Lorem, ipsum dolor.</h3>{" "}

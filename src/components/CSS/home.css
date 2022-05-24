@@ -2,6 +2,10 @@
     width: 100%;
  
 }
+body,html{
+  overflow-x: hidden;
+  /* width: 100vh; */
+}
 .carousel-item .img{
     /* width: 70%; */
     height: 91vh;
@@ -16,12 +20,19 @@
   color: white; 
 
 }
+.carousel-indicators button {
+  width: 15px !important;
+  height: 15px !important;
+  border-radius: 50%;
+}
 .carousel-caption
 .img-gradient {
     position:relative;
   }
   
-  
+  .carousel-caption .button button{
+    border-radius: 20px !important;
+  }
   
   .img-gradient .carousel-caption{
       width: 71%;
@@ -35,22 +46,21 @@
   }
 
 
-
+/* count css */
 .count {
-  height: 150px;
+  height: 200px;
+ 
+}
+.count_numbers{
+  color: black;
 }
 .count_parents {
-  width: 80%;
-  height: 100px;
-  margin-bottom: 60px;
+  width: 100%;
+  /* height: 100px; */
+  /* margin-bottom: 60px; */
   
   border-radius: 12px;
-  background-image: url("../images/1.jpg");
-  position: relative;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  
   
 }
 .count_users {
@@ -68,17 +78,17 @@
 }
 .inside_counter {
   width: 100%;
-  height: 100px;
-  margin-bottom: 90px;
-  
+  /* height: 200px]; */
+  /* margin-bottom: 90px; */
+  display: flex;
+  flex-direction: column;
   border-radius: 12px;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 
   padding: 5px;
-  background: #f096195e;  
-background: -webkit-linear-gradient(to top, #edde5d97, #f0961900);  
-background: linear-gradient(to top, #edde5d97, #f096196b)
+  background:#ebc11900;  
+
 }
 .inside_counter span {
   width: 0px;
@@ -89,7 +99,7 @@ background: linear-gradient(to top, #edde5d97, #f096196b)
   width: 20%;
   height: 100%;
 
-  margin: 1px;
+  margin: 15px;
   padding: 10px;
   display: flex;
   flex-direction: column;
@@ -101,11 +111,16 @@ background: linear-gradient(to top, #edde5d97, #f096196b)
 }
 .about_content_box {
   display: flex;
+
 }
 .count_box .about_content_box .count_numbers h2 {
   text-align: center;
 }
-
+._count_upper_section1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
 .gradient-text {
   
   background-color: red;
@@ -122,13 +137,18 @@ background: linear-gradient(to top, #edde5d97, #f096196b)
 }
 .title_rating {
   font-size: x-small;
+  color: black;
+  
 }
 /* donation card css */
-
+.about_donation{
+  width: 80%;
+  text-align: justify;
+}
 .donation_background{
    
         width: 100%;
-        height: 80vh;
+        height: 100vh;
         margin-bottom: 60px;
         
         background-image: url("../images/gallery_img_3.jpg") ;
@@ -191,6 +211,10 @@ background: linear-gradient(to top, #edde5d97, #f096196b)
 .gallery_section{
   margin:auto;
 }
+.gallery_section_img{
+  display: flex;
+  flex-direction: column;
+}
 .gallery_section_img img{
   width: 25%;
   cursor: pointer;
@@ -199,6 +223,11 @@ background: linear-gradient(to top, #edde5d97, #f096196b)
   transform: scale(1.2)  ;
   transition: all 0.2s 0s ease-in-out;
   /* border: #b20a2c 10px solid; */
+}
+
+.brand_name_title{
+  text-align: center;
+  font-size: 35px;
 }
 
 /* css for join us  */
@@ -231,11 +260,13 @@ background: linear-gradient(to top, #edde5d97, #f096196b)
 /* css for footer*/
 .map{
   flex-direction: row-reverse;
-  justify-content: space-between;
+  justify-content: center;
   
 }
 .map img{
-  width: 50%;
+  width: 40%;
+  height: 40%;
+  justify-self: center;
 
 }
 
@@ -309,11 +340,87 @@ background: linear-gradient(to top, #edde5d97, #f096196b)
 .merchandise_main_box .line{
   position:absolute;
   margin-top: 250px;
+  height: 100px;
   /* top: 300px; */
 }
-.merchandise_main_box .line2{
-  margin-top: 300px;
-}
+
 .merchandise_main_box img{
   z-index: 1;
+}
+.footer .contact_information{
+  width: 40%;
+}
+.footer_2 div{
+  width: 30%;
+  font-size:15px;
+}
+.footer{
+  font-size: 15px;
+}
+.footer h5{
+  font-size:22px;
+  margin: 10px;
+  padding: 5px;
+  color: white;
+  
+}
+.footer_2 .email input{
+    width: 150px;
+}
+.footer{
+  color: #bdbead;
+}
+.contact_information .line{
+height: 0.5px;
+border: 0.5px;
+color: #bdbead ;
+background-color: #bdbead74;
+width: 90%;
+justify-self: center;
+margin: 15px;
+}
+.footer_section_2 li{
+  margin: 20px 10px;
+}
+.main_Feature ul{
+  margin: 0px;
+  padding: 0;
+}
+.footer_section_2 .line{
+  height: 0.5px;
+border: 0.5px;
+color: #bdbead ;
+background-color: #bdbead74;
+width: 90%;
+justify-self: center;
+margin: 30px 15px;
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 540px) { 
+
+ 
+ .count_box{
+   width: 104%;
+ }
+.inside_counter{
+  flex-direction: row;
+}
+   ._count_upper_section1{
+    flex-direction:column;
+    width: 50%;
+  }
+  .count , .count_parents,.count_users , .inside_counter{
+    height: unset;
+  }
+  .gallery_section_img{
+    flex-direction: row;
+
+  }
+  .gallery_section_1 ,.gallery_section_2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .gallery_section_img img{
+    width: 100%;
+  }
 }

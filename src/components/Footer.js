@@ -1,12 +1,17 @@
 import React from "react";
 import map_image from "./images/mapbox.png";
+
+import phone_call from "./images/phone-call.png";
+import clock from "./images/clock.png";
+import mail from "./images/mail.png";
+import signpost from "./images/signpost.png";
 const Footer = () => {
   return (
     <div>
       <div className="map m-0 d-flex  ">
         <img src={map_image} alt="" />
         <div className="form m-4  ">
-          <div class="contact-us">
+          <div className="contact-us">
             <div className="heading_contact">
               {" "}
               <h5 className="text-yellow">Lorem ipsum dolor sit amet.</h5>{" "}
@@ -22,7 +27,7 @@ const Footer = () => {
                   type="text"
                 />
 
-                <input  
+                <input
                   id="customerEmail"
                   name="customerEmail"
                   required=""
@@ -63,30 +68,83 @@ const Footer = () => {
       </div>
       <footer>
         <div className="line"></div>
-        <div className="footer "><nav class="navbar navbar-expand-lg bg-dark">
-  <div class="container-fluid ">
-    <a class="navbar-brand text-white" href="/">Navbar</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    
-      <ul class="navbar-nav">
-        <li class="nav-item ">
-          <a class="nav-link text-white active" aria-current="page" href="/">Home</a>
-        </li>
-        <li class="nav-item ">
-          <a class="nav-link text-white" href="/">Features</a>
-        </li>
-        <li class="nav-item ">
-          <a class="nav-link text-white" href="/">Pricing</a>
-        </li>
-        <li class="nav-item ">
-          <a class="nav-link text-white disabled">Disabled</a>
-        </li>
-      </ul>
-   
-  </div>
-</nav></div>
+        <div className="footer bg-dark d-flex col">
+          <div className="contact_information m-1 p-2">
+            <h5>CONTACT INFORMATION</h5>
+            <div className="address d-flex col  m-3   align-items-center">
+              <img src={signpost} width = "35px " height = "40px" alt="errr" />
+              <div className="mx-2 ">
+                {" "}
+                adress <br />
+                flat not 102 kanchan palace{" "}
+              </div>
+            </div>
+            <div className="line"></div>
+            <div className="address d-flex col  m-3   align-items-center">
+              <img src={phone_call} width = "30px " height = "30px" alt="errr" />
+              <div className="mx-2">
+                {" "}
+                phone  <br />
+                749-861-2751{" "}
+              </div>
+            </div>
+            <div className="line"></div>
+            <div className="address d-flex col  m-3   align-items-center ">
+              <img src={mail} width = "30px " height = "30px" alt="errr" />
+              <div className="mx-2">
+                {" "}
+                email adress <br />
+                sumitbarmecha12@gmail.com{" "}
+              </div>
+            </div><div className="line"></div>
+            <div className="address d-flex col  m-3   align-items-center">
+              <img src={clock} width = "30px " height = "30px" alt="errr" />
+              <div className="mx-2">
+                {" "}
+                working hours/days <br />
+                7am-9pm/monday-friday{" "}
+              </div>
+            </div>
+          </div>
+          <div className="footer_section_2 d-flex row">
+            <div className="footer_2 d-flex col justify-content-evenly ">
+              <div className="my_account">
+                <h5>OUR INITIATIVES</h5>
+                <ul>
+                  <li>ABOUT US </li>
+                  <li>contact us </li>
+                  <li>my account</li>
+                  <li>order history</li>
+                  <li>covid 19</li>
+                </ul>
+              </div>
+              <div className="main_Feature ">
+                <h5>MAIN FEATURES </h5>
+                <ul>
+                  <li>super fast magneto theme</li>
+                  <li>super fast magneto theme</li>
+                  <li>super fast magneto theme</li>
+                  <li>super fast magneto theme</li>
+                  <li>super fast magneto theme</li>
+                </ul>
+              </div>
+              <div className="be_the_first">
+                <h5>LET US KNOW IF YOU FIND SOMEONE IN NEED </h5>
+                <p>
+                  get the latest
+                </p>{" "}
+                <div className="email d-flex col ">
+                  <input type="text" />
+                  <button>go</button>
+                </div>
+              </div>
+            </div>
+            <div className="line"></div>
+            <div className="credit m-3">
+              <div className="cards_image">All rights reserved </div>
+            </div>
+          </div>
+        </div>
       </footer>
     </div>
   );

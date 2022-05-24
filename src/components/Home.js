@@ -1,16 +1,15 @@
 import React from "react";
-import gallery_img_4 from "./images/gallery_img_4.jpg";
 import "./CSS/home.css";
 const Home = () => {
   return (
     <div className=" d-flex justify-content-center w-100">
       {/* buttons */}
-      {/* <div class="carousel-indicators">
+      <div className="carousel-indicators">
         <button
           type="button"
           data-bs-target="#carouselExampleDark"
           data-bs-slide-to="0"
-          class="active"
+          className="active"
           aria-current="true"
           aria-label="Slide 1"
         ></button>
@@ -26,53 +25,53 @@ const Home = () => {
           data-bs-slide-to="2"
           aria-label="Slide 3"
         ></button>
-      </div> */}
+      </div>
       {/* buttons */}
       <div
         id="carouselExampleInterval"
-        class="carousel slide"
+        className="carousel slide"
         data-bs-ride="carousel"
       >
-        <div class="carousel-inner">
-          <div class="carousel-item active img-gradient" data-bs-interval="5000">
+        <div className="carousel-inner">
+          <div className="carousel-item active img-gradient" data-bs-interval="5000">
             <div className="img"></div>
-            <div class="carousel-caption">
-        <h1>First slide label</h1>
-        <p>Some representative placeholder content for the first slide.</p><div className="button m-4"><button className='bg-dark px-4 p-2 rounded-pill text-yellow '>join us now</button></div>
+            <div className="carousel-caption">
+        <h1>लोका: समस्ता: सुखिनो भवन्तु ।</h1>
+        <div className="button m-4"><button className='bg-dark px-4 p-2  text-yellow '>join us now</button></div>
       </div>
           </div>
-          <div class="carousel-item  img-gradient" data-bs-interval="5000">
+          <div className="carousel-item  img-gradient" data-bs-interval="5000">
           <div className="img"></div>
-            <div class="carousel-caption  ">
-        <h1>First slide label</h1>
-        <p>Some representative placeholder content for the first slide.</p><div className="button m-4"><button className='bg-dark px-4 p-2 rounded-pill text-yellow '>join us now</button></div>
+            <div className="carousel-caption  ">
+        <h1>लोका: समस्ता: सुखिनो भवन्तु ।</h1>
+        <div className="button m-4"><button className='bg-dark px-4 p-2  text-yellow '>join us now</button></div>
       </div>
           </div>
-          <div class="carousel-item img-gradient" data-bs-interval="5000">
+          <div className="carousel-item img-gradient" data-bs-interval="5000">
           <div className="img"></div>
-            <div class="carousel-caption">
-        <h1>First slide label</h1>
-        <p>Some representative placeholder content for the first slide.</p><div className="button m-4"><button className='bg-dark px-4 p-2 rounded-pill text-yellow '>join us now</button></div>
+            <div className="carousel-caption">
+        <h1>लोका: समस्ता: सुखिनो भवन्तु ।</h1>
+        <div className="button m-4"><button className='bg-dark px-4 p-2  text-yellow '>join us now</button></div>
       </div>
           </div>
         </div>
         <button
-          class="carousel-control-prev"
+          className="carousel-control-prev"
           type="button"
           data-bs-target="#carouselExampleInterval"
           data-bs-slide="prev"
         >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span className="visually-hidden">Previous</span>
         </button>
         <button
-          class="carousel-control-next"
+          className="carousel-control-next"
           type="button"
           data-bs-target="#carouselExampleInterval"
           data-bs-slide="next"
         >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
+          <span className="carousel-control-next-icon" aria-hidden="true"></span>
+          <span className="visually-hidden">Next</span>
         </button>
       </div>
     </div>

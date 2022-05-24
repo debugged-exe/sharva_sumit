@@ -11,7 +11,7 @@ const MerchantDise = () => {
         <img width="300px" src={merchancise_tshirt} alt="error" />
         <div className="merchandise_content m-3 p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus molestias quia velit, maiores omnis laboriosam non natus rerum quos nihil eum corrupti magni, earum aspernatur atque adipisci vel sit harum?</div>
         <div className="line"></div>
-        <div className="line line2"></div>
+        
       </div>
     </div>
     

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import CountUp from "react-countup";
 import VisibilitySensor from "react-visibility-sensor";
 import "../components/CSS/home.css"
@@ -25,12 +25,12 @@ const Count = () => {
 //   }, []);
 
   return (
-    <div className="m-5">
+    <div className="my-5 pb-5">
       <section className="count text-white">
         <div className=" count_users  d-flex justify-content-center   ">
           <div className="count_parents">
-            <div className="inside_counter d-flex col-md-4">
-              {/* <div className="count_box google_rating">
+            <div className="inside_counter d-flex">
+              {/* <div className="count_box mx-2 google_rating">
                 <img width={"45px"} src={google} alt="" />
                 <div className="about_content_box">
                   <div className="count_numbers ">
@@ -40,7 +40,10 @@ const Count = () => {
                 </div>
               </div>
               <span></span> */}
-              <div className="count_box google_rating">
+              <div className="_count_upper_section1">
+
+              
+              <div className="count_box mx-2 google_rating">
                 <div className="about_content_box">
                   <img width={"45px"} src={instagram} alt="" />
                   <div className="count_numbers ">
@@ -59,7 +62,7 @@ const Count = () => {
                 <div className="title_rating">INSTAGRAM FOLLOWERS </div>
               </div>
               <span></span>
-              <div className="count_box youtube_subs">
+              <div className="count_box mx-2 youtube_subs">
                 <div className="about_content_box">
                   <img width={"45px"} src={youtube} alt="" />
                   <div className="count_numbers ">
@@ -80,7 +83,7 @@ const Count = () => {
                 <div className="title_rating"> YOUTUBE SUBSCRIBERS </div>
               </div>{" "}
               <span></span>{" "}
-              <div className="count_box batch">
+              <div className="count_box mx-2 batch">
                 <div className="about_content_box">
                   <img width={"45px"} src={webinar} alt="" />
                   <div className="count_numbers ">
@@ -99,7 +102,7 @@ const Count = () => {
                 <div className="title_rating">BATCHES HELD</div>
               </div>{" "}
               <span></span>
-              <div className="count_box student_mentored">
+              <div className="count_box mx-2 student_mentored">
                 <div className="about_content_box">
                   <img width={"45px"} src={group} alt="" />
                   <div className="count_numbers ">
@@ -119,6 +122,74 @@ const Count = () => {
                   </div>
                 </div>
                 <div className="title_rating">STUDENTS</div>
+              </div>
+              </div>
+              <div className="_count_upper_section1 ">
+
+              
+              <div className="count_box mx-2 student_mentored">
+                <div className="about_content_box">
+                  <img width={"45px"} src={group} alt="" />
+                  <div className="count_numbers ">
+                    <h2 className="m-0 p-0 d-flex">
+                      <VisibilitySensor
+                        partialVisibility
+                        offset={{ bottom: 200 }}
+                      >
+                        {({ isVisible }) => (
+                          <div>
+                            {isVisible ? <CountUp end ={1300} /> : 20039 }
+                           
+                          </div>
+                        )}
+                      </VisibilitySensor>
+                    </h2>
+                  </div>
+                </div>
+                <div className="title_rating">STUDENTS</div>
+              </div>
+              <div className="count_box mx-2 student_mentored">
+                <div className="about_content_box">
+                  <img width={"45px"} src={group} alt="" />
+                  <div className="count_numbers ">
+                    <h2 className="m-0 p-0 d-flex">
+                      <VisibilitySensor
+                        partialVisibility
+                        offset={{ bottom: 200 }}
+                      >
+                        {({ isVisible }) => (
+                          <div>
+                            {isVisible ? <CountUp end ={1300} /> : 20039 }
+                           
+                          </div>
+                        )}
+                      </VisibilitySensor>
+                    </h2>
+                  </div>
+                </div>
+                <div className="title_rating">STUDENTS</div>
+              </div>
+              <div className="count_box mx-2 student_mentored">
+                <div className="about_content_box">
+                  <img width={"45px"} src={group} alt="" />
+                  <div className="count_numbers ">
+                    <h2 className="m-0 p-0 d-flex">
+                      <VisibilitySensor
+                        partialVisibility
+                        offset={{ bottom: 200 }}
+                      >
+                        {({ isVisible }) => (
+                          <div>
+                            {isVisible ? <CountUp end ={1300} /> : 20039 }
+                           
+                          </div>
+                        )}
+                      </VisibilitySensor>
+                    </h2>
+                  </div>
+                </div>
+                <div className="title_rating">STUDENTS</div>
+              </div>
               </div>
             </div>
           </div>
