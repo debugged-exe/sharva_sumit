@@ -25,7 +25,7 @@ const Count = () => {
 //   }, []);
 
   return (
-    <div className="my-5 pb-5">
+    <div className="my-5 ">
       <section className="count text-white">
         <div className=" count_users  d-flex justify-content-center   ">
           <div className="count_parents">
