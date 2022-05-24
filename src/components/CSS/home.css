@@ -113,6 +113,14 @@ body,html{
   display: flex;
 
 }
+.sec1{
+  margin: 15px;padding: 10px;
+}
+.main_div_about{
+  flex-direction: row;
+  justify-content: space-between;
+
+}
 .count_box .about_content_box .count_numbers h2 {
   text-align: center;
 }
@@ -238,6 +246,9 @@ body,html{
 .content_about, .image_about{
   width: 45%;
 }
+.image_about img{
+  width: 60%;
+}
 .headings_about_us h5 ,
 .headings_about_us h1{
   text-align: center;
@@ -342,6 +353,12 @@ body,html{
   margin-top: 250px;
   height: 100px;
   /* top: 300px; */
+  display: flex;
+  align-items: center;
+  justify-content:center ;
+}
+.merchandise_main_box .line button{
+  height: 70%;
 }
 
 .merchandise_main_box img{
@@ -421,6 +438,70 @@ margin: 30px 15px;
     flex-direction: column;
   }
   .gallery_section_img img{
+    width: 100%;
+  }
+  .main_div_about {
+    flex-direction: column-reverse;
+    justify-content: center ;
+    align-items: center;
+    display: flex;
+  }
+  .image_about img{
+    width: 100%;
+  }
+  .content_about{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+  }
+    .image_about{
+    width: 100%;
+    padding: 20px 0px;
+  }
+  .merchandise h3{
+    font-size: smaller;
+  }
+  .merchandise h1{
+    font-size: 25px;
+  }
+  .merchandise_main_box {
+    flex-direction: column;
+  }
+  .merchandise_main_box .merchandise_content{
+    width: 100%;  }
+    .merchandise_main_box .line{
+      position: relative;
+      margin: 0px;
+      align-items: center;
+
+    }
+  .join_us{
+    flex-direction: column;
+  }
+  .join_us .content{
+    width: 90%;
+  }
+  .join_us .button{
+    justify-content: center;
+    display: flex;
+  }
+  .map{
+    flex-direction: column;
+  }
+  .map img{
+    width: 100%;
+  }
+  .footer{
+    flex-direction:column;
+  }
+  .footer .contact_information{
+    width: 100%;
+  }
+  .footer_2{
+    flex-direction: column;
+  }
+  .footer_2 div{
     width: 100%;
   }
 }

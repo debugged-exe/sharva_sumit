@@ -129,14 +129,11 @@ const Footer = () => {
                 </ul>
               </div>
               <div className="be_the_first">
-                <h5>LET US KNOW IF YOU FIND SOMEONE IN NEED </h5>
+                <h5>OUR VISION</h5>
                 <p>
-                  get the latest
+                We make a living by what we get, but we make a life by what we give” These Words define the very energy that flows through the heart of Sharva foundation. We here at Sharva Foundation believe in building a community through giving. Our young minds and passion for this is what strives us towards giving the best! Although young, we look forward to do small things with great love.
                 </p>{" "}
-                <div className="email d-flex col ">
-                  <input type="text" />
-                  <button>go</button>
-                </div>
+                
               </div>
             </div>
             <div className="line"></div>
