@@ -1,6 +1,6 @@
 import React from "react";
-import gallery_img_2 from "./images/gallery_img_2.jpg";
-import brand_img from "./images/amazon-pay.png";
+import sharva from "./images/sharva.png";
+
 
 const AboutUs = () => {
   return (
@@ -25,7 +25,7 @@ const AboutUs = () => {
           </div>
 
         </div>
-        <div className="image_about "><img  src={gallery_img_2} alt="" /></div>
+        <div className="image_about "><img  src={sharva} alt="" /></div>
       </div>
     </div>
   );

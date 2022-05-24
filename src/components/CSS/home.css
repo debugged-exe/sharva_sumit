@@ -2,6 +2,7 @@
     width: 100%;
  
 }
+
 body,html{
   overflow-x: hidden;
   /* width: 100vh; */
@@ -121,10 +122,13 @@ border:#bdbead solid 2px;
 
 }
 .sec1{
-  margin: 15px;padding: 10px;
+  margin: 5px;padding: 10px;
+}
+.details_about{
+  text-align: justify;
 }
 .main_div_about{
-  flex-direction: row;
+  flex-direction: row-reverse;
   justify-content: space-between;
 
 }
@@ -178,7 +182,7 @@ border:#bdbead solid 2px;
       }
 .gradient_for_donation_card{
     width: 100%;
-    height: 100%;
+    height: 100%;padding: 15px;
     background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.807));
     display: flex;
     justify-content: center;
@@ -255,7 +259,9 @@ border:#bdbead solid 2px;
   width: 45%;
 }
 .image_about img{
-  width: 60%;
+  width: 100%;
+  margin: 15px;
+  padding: 15px;
 }
 .headings_about_us h5 ,
 .headings_about_us h1{
@@ -342,28 +348,41 @@ border:#bdbead solid 2px;
 }
 
 /* merchandise css */
+.caruosel_for_merchandise{
+width: 25%;z-index: 1;
+margin: 20px;
+margin-top: 40px;
+}
 .merchandise{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 30px;
+  padding: 50px;
+  margin-top: 0px;
+  padding-top: 0px;
 }
 .merchandise_main_box{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  margin: 30px;
+ 
 }
 .merchandise_main_box .merchandise_content{
   width: 50%;
+  text-align: justify;
 }
 .merchandise_main_box .line{
   position:absolute;
-  margin-top: 250px;
+  margin-top:300px ;
+  padding-right: 200px;
   height: 100px;
   /* top: 300px; */
   display: flex;
   align-items: center;
-  justify-content:center ;
+  justify-content:flex-end ;
 }
 .merchandise_main_box .line button{
   height: 70%;
@@ -372,6 +391,8 @@ border:#bdbead solid 2px;
 .merchandise_main_box img{
   z-index: 1;
 }
+
+
 .footer .contact_information{
   width: 40%;
 }
@@ -420,7 +441,57 @@ width: 90%;
 justify-self: center;
 margin: 30px 15px;
 }
-
+/* css for gallery 2  */
+.gallery {
+  display: flex;
+  padding: 2px;
+  transition: 0.3s;
+}
+.gallery:hover .gallery__image {
+  filter: grayscale(1);
+}
+.gallery__column {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
+.gallery__link {
+  margin: 2px;
+  overflow: hidden;
+}
+.gallery__link:hover .gallery__image {
+  filter: grayscale(0);
+}
+.gallery__link:hover .gallery__caption {
+  opacity: 1;
+}
+.gallery__thumb {
+  position: relative;
+}
+.gallery__image {
+  display: block;
+  width: 100%;
+  transition: 0.3s;
+}
+figure{
+  margin: 0px !important;
+}
+.gallery__image:hover {
+  transform: scale(1.5);
+}
+.gallery__caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 25px 15px 15px;
+  width: 100%;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  color: white;
+  opacity: 0;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
+  transition: 0.3s;
+}
 @media screen and (min-device-width: 320px) and (max-device-width: 540px) { 
 
  

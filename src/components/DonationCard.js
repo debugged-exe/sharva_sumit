@@ -22,7 +22,7 @@ const responsive = {
     slidesToSlide: 1 // optional, default to 1.
   }
 };
-const DonationCard = (props) => {
+const DonationCard = () => {
   
   return (
     
@@ -40,22 +40,22 @@ const DonationCard = (props) => {
         </div>
        
                 <Carousel
-  swipeable={false}
-  draggable={false}
-  showDots={true}
+  // swipeable={false}
+  // draggable={false}
+  // showDots={true}
   responsive={responsive}
-  // ssr={true} // means to render carousel on server-side.
-  infinite={true}
-  autoPlay={props.deviceType !== "mobile" ? true : false}
-  autoPlaySpeed={1000}
-  keyBoardControl={true}
-  customTransition="all .5"
-  transitionDuration={500}
-  containerclassName="carousel-container"
-  removeArrowOnDeviceType={["tablet", "mobile"]}
-  deviceType={props.deviceType}
-  dotListclassName="custom-dot-list-style"
-  itemclassName="carousel-item-padding-40-px"
+  // // ssr={true} // means to render carousel on server-side.
+  // infinite={true}
+  // autoPlay={props.deviceType !== "mobile" ? true : false}
+  // autoPlaySpeed={1000}
+  // keyBoardControl={true}
+  // customTransition="all .5"
+  // transitionDuration={500}
+  // containerclassName="carousel-container"
+  // removeArrowOnDeviceType={["tablet", "mobile"]}
+  // deviceType={props.deviceType}
+  // dotListclassName="custom-dot-list-style"
+  // itemclassName="carousel-item-padding-40-px"
 >
    <div className="card bg-transparent">
                   <img
@@ -77,8 +77,7 @@ const DonationCard = (props) => {
                     </p>
                     <button className="btn button">donate now</button>
                   </div>
-                </div>
-                <div className="card bg-transparent">
+                </div><div className="card bg-transparent">
                   <img
                     src={gallery_img_2}
                     className="card-img-top"
@@ -179,7 +178,7 @@ const DonationCard = (props) => {
                     <button className="btn button">donate now</button>
                   </div>
                 </div>
-</Carousel>;
+</Carousel>
       </div>
     </div>
   );
