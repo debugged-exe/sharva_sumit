@@ -6,7 +6,7 @@ import merchancise_3 from "./images/merchandise_3.png";
 const MerchantDise = () => {
   return (
     <div>
-    <div className="join_us bg-dark d-flex  justify-content-center pt-3">
+    <div className="join_us bg-dark d-flex  justify-content-center p-3">
         <div className="content m-4  text-white w-60">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur
           incidunt nulla ullam quasi, facilis tempore praesentium eveniet et
@@ -51,13 +51,13 @@ const MerchantDise = () => {
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img width="300px" src={merchancise_1} alt="error" />
+                <img  src={merchancise_1} alt="error" />
               </div>
               <div class="carousel-item">
-                <img width="300px" src={merchancise_2} alt="error" />
+                <img  src={merchancise_2} alt="error" />
               </div>
               <div class="carousel-item">
-                <img width="300px" src={merchancise_3} alt="error" />
+                <img  src={merchancise_3} alt="error" />
               </div>
             </div>
           </div>
@@ -70,7 +70,7 @@ const MerchantDise = () => {
             applicable based on your address and it will not exceed ₹50){" "}
           </div>
           <div className="line ">
-            <button className="bg-white px-4 p-2 rounded-pill text-yellow ">
+            <button className="bg-white  rounded-pill text-yellow ">
               get your merchandise!
             </button>
           </div>

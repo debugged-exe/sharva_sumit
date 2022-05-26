@@ -1,21 +1,51 @@
 import React from "react";
 import map_image from "./images/mapbox.png";
-
+import hr from "./images/hr.png";
 import phone_call from "./images/phone-call.png";
+import group from "./images/group.png";
 import clock from "./images/clock.png";
+import handshake from "./images/handshake.png";
 import mail from "./images/mail.png";
 import signpost from "./images/signpost.png";
 const Footer = () => {
   return (
     <div>
       <div className="map m-0 d-flex  ">
-        <img src={map_image} alt="" />
-        <div className="form m-4  ">
+        <div className="map_image_box">
+          <img className="map_image" src={map_image} alt="" />
+          <div className="img_content">
+            <div className=" img_box_content team">
+              <img className="contact_map_logo" src={group} alt=" " />
+              <div className="logo text-white">
+                <h5>Team</h5> <p>team.sharvafoundation@gmail.com</p>
+              </div>
+            </div>
+            <div className=" img_box_content manager">
+              <img className="contact_map_logo" src={handshake} alt=" " />
+              <div className="logo text-white">
+                <h5>Manager</h5> <p>managersharvafoundation@gmail.com</p>
+              </div>
+            </div>
+            <div className=" img_box_content team">
+              <img className="contact_map_logo" src={hr} alt=" " />
+              <div className="logo text-white">
+                <h5>HR</h5> <p>hr.sharvafoundation@gmail.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="form   ">
           <div className="contact-us">
             <div className="heading_contact">
               {" "}
-              <h5 className="text-yellow">Lorem ipsum dolor sit amet.</h5>{" "}
-              <h1>Lorem ipsum dolor sit amet.</h1>
+              <h1>CONTACT US</h1>
+              <h5 className="text-yellow">
+                Any help that goes undocumented can result in the failure of
+                someone’s livelihood and survival. It is of utmost importance
+                that this be prevented. There’s where we come in. And only by
+                contacting us can you acquire a platform that helps to
+                distribute this aid.
+              </h5>{" "}
             </div>
             <form action="#" className="my-5 contact_us_form">
               <div className="d-flex m-2 input_box_1">
@@ -72,7 +102,7 @@ const Footer = () => {
           <div className="contact_information m-1 p-2">
             <h5>CONTACT INFORMATION</h5>
             <div className="address d-flex col  m-3   align-items-center">
-              <img src={signpost} width = "35px " height = "40px" alt="errr" />
+              <img src={signpost} width="35px " height="40px" alt="errr" />
               <div className="mx-2 ">
                 {" "}
                 adress <br />
@@ -81,24 +111,25 @@ const Footer = () => {
             </div>
             <div className="line"></div>
             <div className="address d-flex col  m-3   align-items-center">
-              <img src={phone_call} width = "30px " height = "30px" alt="errr" />
+              <img src={phone_call} width="30px " height="30px" alt="errr" />
               <div className="mx-2">
                 {" "}
-                phone  <br />
+                phone <br />
                 749-861-2751{" "}
               </div>
             </div>
             <div className="line"></div>
             <div className="address d-flex col  m-3   align-items-center ">
-              <img src={mail} width = "30px " height = "30px" alt="errr" />
+              <img src={mail} width="30px " height="30px" alt="errr" />
               <div className="mx-2">
                 {" "}
                 email adress <br />
                 sumitbarmecha12@gmail.com{" "}
               </div>
-            </div><div className="line"></div>
+            </div>
+            <div className="line"></div>
             <div className="address d-flex col  m-3   align-items-center">
-              <img src={clock} width = "30px " height = "30px" alt="errr" />
+              <img src={clock} width="30px " height="30px" alt="errr" />
               <div className="mx-2">
                 {" "}
                 working hours/days <br />
@@ -131,9 +162,14 @@ const Footer = () => {
               <div className="be_the_first">
                 <h5>OUR VISION</h5>
                 <p>
-                We make a living by what we get, but we make a life by what we give” These Words define the very energy that flows through the heart of Sharva foundation. We here at Sharva Foundation believe in building a community through giving. Our young minds and passion for this is what strives us towards giving the best! Although young, we look forward to do small things with great love.
+                  We make a living by what we get, but we make a life by what we
+                  give” These Words define the very energy that flows through
+                  the heart of Sharva foundation. We here at Sharva Foundation
+                  believe in building a community through giving. Our young
+                  minds and passion for this is what strives us towards giving
+                  the best! Although young, we look forward to do small things
+                  with great love.
                 </p>{" "}
-                
               </div>
             </div>
             <div className="line"></div>

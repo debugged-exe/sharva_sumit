@@ -1,4 +1,5 @@
 import React from "react";
+
 import "./CSS/home.css";
 const Home = () => {
   return (
@@ -34,21 +35,21 @@ const Home = () => {
       >
         <div className="carousel-inner">
           <div className="carousel-item active img-gradient" data-bs-interval="5000">
-            <div className="img"></div>
+            <div className="img img1"></div>
             <div className="carousel-caption">
         <h1>लोका: समस्ता: सुखिनो भवन्तु ।</h1>
         <div className="button m-4"><button className='bg-dark px-4 p-2  text-yellow '>join us now</button></div>
       </div>
           </div>
           <div className="carousel-item  img-gradient" data-bs-interval="5000">
-          <div className="img"></div>
+          <div className="img img2"></div>
             <div className="carousel-caption  ">
         <h1>लोका: समस्ता: सुखिनो भवन्तु ।</h1>
         <div className="button m-4"><button className='bg-dark px-4 p-2  text-yellow '>join us now</button></div>
       </div>
           </div>
           <div className="carousel-item img-gradient" data-bs-interval="5000">
-          <div className="img"></div>
+          <div className="img img3"></div>
             <div className="carousel-caption">
         <h1>लोका: समस्ता: सुखिनो भवन्तु ।</h1>
         <div className="button m-4"><button className='bg-dark px-4 p-2  text-yellow '>join us now</button></div>
