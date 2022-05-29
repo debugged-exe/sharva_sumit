@@ -30,12 +30,12 @@ const Gallery2 = () => {
                     
                 </figure>
             </a>
-            {/* <a href="https://unsplash.com/@von_co"  class="gallery__link">
+            <a href="https://unsplash.com/@von_co"  class="gallery__link">
                 <figure class="gallery__thumb">
                     <img src={gallery_img_2} alt="Portrait by Ivana Cajina" class="gallery__image"/>
                    
                 </figure>
-            </a> */}
+            </a>
     
            
         </div>
@@ -54,12 +54,12 @@ const Gallery2 = () => {
                    
                 </figure>
             </a>
-            {/* <a href="https://unsplash.com/@von_co"  class="gallery__link">
+            <a href="https://unsplash.com/@von_co"  class="gallery__link">
                 <figure class="gallery__thumb">
                     <img src={gallery_img_3} alt="Portrait by Ivana Cajina" class="gallery__image"/>
                    
                 </figure>
-            </a> */}
+            </a>
            
         </div>
         
@@ -77,12 +77,12 @@ const Gallery2 = () => {
                     
                 </figure>
             </a>
-            {/* <a href="https://unsplash.com/@von_co"  class="gallery__link">
+            <a href="https://unsplash.com/@von_co"  class="gallery__link">
                 <figure class="gallery__thumb">
                     <img src={gallery_img_2} alt="Portrait by Ivana Cajina" class="gallery__image"/>
                    
                 </figure>
-            </a> */}
+            </a>
           
         </div>
         
@@ -100,12 +100,12 @@ const Gallery2 = () => {
                     
                 </figure>
             </a>
-            {/* <a href="https://unsplash.com/@von_co"  class="gallery__link">
+            <a href="https://unsplash.com/@von_co"  class="gallery__link">
                 <figure class="gallery__thumb">
                     <img src={gallery_img_3} alt="Portrait by Ivana Cajina" class="gallery__image"/>
                    
                 </figure>
-            </a> */}
+            </a>
             
         </div>
     </div></div>

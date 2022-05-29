@@ -13,8 +13,11 @@ const MerchantDise = () => {
           voluptate. Unde nulla tempori.
         </div>
         <div className="button m-4">
-          <button className="bg-white px-4 p-2 rounded-pill text-yellow ">
+          <button className="bg-yellow  px-4 p-2 rounded text-white ">
+           <strong>
+
             join us now
+           </strong>
           </button>
         </div>
       </div>
@@ -70,7 +73,7 @@ const MerchantDise = () => {
             applicable based on your address and it will not exceed ₹50){" "}
           </div>
           <div className="line ">
-            <button className="bg-white  rounded-pill text-yellow ">
+            <button className="bg-white  rounded text-yellow ">
               get your merchandise!
             </button>
           </div>

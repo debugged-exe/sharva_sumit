@@ -55,9 +55,7 @@ html {
   position: relative;
 }
 
-.carousel-caption .button button {
-  border-radius: 20px !important;
-}
+
 
 .img-gradient .carousel-caption {
   width: 71%;
@@ -219,8 +217,8 @@ html {
   margin: 25px 0px 0px 0px;
 }
 .bg-transparent .card-body {
-  height: 320px;
-  width: 100%;
+  /* height: 320px; */
+  width: 350px;
 }
 .bg-transparent button {
   /* padding: 20px 5px; */
@@ -229,8 +227,8 @@ html {
   cursor: pointer;
 }
 .bg-transparent img {
-  width: 300px;
-  height: 200px;
+  width: 350px;
+  height: 250px;
 }
 .image_carousel_box .card {
   width: 300px;
@@ -247,6 +245,10 @@ html {
 }
 .text-yellow {
   color: #ebc219;
+  /* background-color: #ebc219; */
+}
+.bg-yellow {
+  background-color: #ebc219;
   /* background-color: #ebc219; */
 }
 .image_carousel_box {
@@ -310,7 +312,7 @@ html {
   width: 100%;
   margin: 15px;
   padding: 15px;
-  border-radius: 100%;
+  border-radius: 25px;
 }
 .headings_about_us h5,
 .headings_about_us h1 {
@@ -320,10 +322,13 @@ html {
 .heading_contact h1 {
   text-align: center;
   width: 100%;
-  text-align: justify;
+  /* text-align: justify; */
 }
+
 .headings_about_us h1 {
-  width: 50%;
+  width: 45%;
+  text-align: start;
+  padding: 0px 25px;
 }
 .headings_about_us {
   display: flex;
@@ -345,13 +350,35 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
+.credit{
+  margin: 5px 50px 20px 50px;
+  flex-direction: column-reverse !important;
+  
+}
+.socials{
+  display: flex;
+  justify-content: center;
+}
+.cards_image{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items:center ;
+}
+.socials img{
+  width:30px;
+  margin: 5px;padding: 5px;
+
+}
+
 .map_image {
-  width: 40%;
+  width: 80%;
   /* height: 100%; */
   justify-self: center;
-  position: absolute;
-  z-index: -1;
+
+  margin: 10px;padding: 5px;
 }
 .img_content {
   width: 70%;
@@ -368,7 +395,9 @@ html {
 .logo p {
   width: 100%;
 }
-
+.my_account ul li{
+    text-transform: capitalize;
+}
 .contact-us .contact_us_form {
   display: flex;
   flex-direction: column;
@@ -384,7 +413,7 @@ html {
   margin: 5px;
   padding: 5px;
 
-  background-color: #ebc219;
+  background-color: #7c7b7962;
 }
 .input_box_1 {
   width: 92%;
@@ -397,17 +426,21 @@ html {
   justify-content: center;
   align-items: center;
   width: 45%;
-  padding-top: 70px;
+  /* padding-top: 70px; */
 }
 .contact-us .contact_us_form textarea {
   width: 90%;
   margin: 15px;
   border: 0px;
   padding: 12px;
-  background-color: #ebc219;
+  background-color: #7c7b7962;
 }
 .contact_us_form .button {
-  width: 80%;
+  width: 100%;
+}
+.contact_us_form .button button {
+  width: 90%;
+  padding: 5px;
 }
 .img_box_content {
   display: flex;
@@ -415,7 +448,8 @@ html {
   align-items: center;
 }
 .contact_us_form .button button {
-  background-color: #ebc219;
+  background-color:#7c7b7962;
+ 
   border: 0px;
   color: black;
 }
@@ -479,11 +513,22 @@ footer .line {
 }
 
 .footer .contact_information {
-  width: 40%;
+  width: 100%;
 }
-.footer_2 div {
-  width: 30%;
+.for_mobile_view{
+  display: flex;flex-direction: row;
+  justify-content: space-around;
+}
+.footer_2 .for_mobile_view {
+  width: 50%;
   font-size: 15px;
+}
+.footer_2 .be_the_first{
+  font-size: 15px;
+  width: 30%;
+  padding:0px  10px;
+  margin: 0px 10px;
+  text-align: justify;
 }
 .footer {
   font-size: 15px;
@@ -510,7 +555,7 @@ footer .line {
   margin: 15px;
 }
 .footer_section_2 li {
-  margin: 20px 10px;
+  margin: 20px 15px;
 }
 .main_Feature ul {
   margin: 0px;
@@ -523,7 +568,7 @@ footer .line {
   background-color: #bdbead74;
   width: 90%;
   justify-self: center;
-  margin: 30px 15px;
+  margin: -15px 15px;
 }
 /* css for gallery 2  */
 .gallery {
@@ -540,6 +585,7 @@ footer .line {
   flex-direction: column;
   width: 25%;
 }
+
 .gallery__link {
   margin: 2px;
   overflow: hidden;
@@ -606,6 +652,13 @@ figure {
     display: flex;
     flex-direction: column;
   }
+  .gallery{
+    flex-direction: column;
+  }
+  .gallery__column{
+    width: 100%;
+    flex-direction: row;
+  }
   .gallery_section_img img {
     width: 100%;
   }
@@ -626,6 +679,13 @@ figure {
     justify-content: center;
     align-items: center;
     display: flex;
+  }
+  .footer_2 .for_mobile_view{
+    width: 100%;
+  }
+  .footer_2 .be_the_first{
+    width: 100%;
+    margin: 0;padding: 15px;
   }
   .image_about img {
     width: 100%;
@@ -656,6 +716,8 @@ figure {
   }
   .merchandise_main_box .line {
     position: relative;
+    display: flex;
+    justify-content:center;
     margin: 0px;
     align-items: center;
   }
@@ -673,7 +735,8 @@ figure {
     display: flex;
   }
   .map {
-    flex-direction: column;
+    flex-direction: column-reverse;
+    justify-content: space-between;
   }
   .map_img {
     width: 100%;
@@ -704,7 +767,7 @@ figure {
     width: 100%;
     margin: 0px;
     padding: 0px;
-    border-radius: 100%;
+    border-radius: 10%;
   }
   .bg-transparent button {
     /* padding: 20px 5px; */
@@ -715,6 +778,24 @@ figure {
   .footer {
     flex-direction: column;
   }
+  .for_mobile_view{
+    display: flex;flex-direction: row;
+  }
+  .my_account, .main_Feature{
+    width: 50%;
+  }
+  .my_account h5, .main_Feature h5{
+    margin: 0;padding: 2px;
+  }
+  .footer_section_2 li {
+    margin: 20px 5px;
+}
+
+.my_account ul  {
+  padding-left: 5px;}
+
+
+
   .contact_us_form .button{
     display: flex;
     justify-content: center;

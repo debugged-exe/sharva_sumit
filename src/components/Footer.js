@@ -4,6 +4,7 @@ import hr from "./images/hr.png";
 import phone_call from "./images/phone-call.png";
 import group from "./images/group.png";
 import clock from "./images/clock.png";
+import instagram from "./images/instagram.png";
 import handshake from "./images/handshake.png";
 import mail from "./images/mail.png";
 import signpost from "./images/signpost.png";
@@ -13,7 +14,7 @@ const Footer = () => {
       <div className="map m-0 d-flex  ">
         <div className="map_image_box">
           <img className="map_image" src={map_image} alt="" />
-          <div className="img_content">
+          {/* <div className="img_content">
             <div className=" img_box_content team">
               <img className="contact_map_logo" src={group} alt=" " />
               <div className="logo text-white">
@@ -32,7 +33,7 @@ const Footer = () => {
                 <h5>HR</h5> <p>hr.sharvafoundation@gmail.com</p>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
         <div className="form   ">
           <div className="contact-us">
@@ -48,9 +49,10 @@ const Footer = () => {
               </h5>{" "}
             </div>
             <form action="#" className="my-5 contact_us_form">
-              <div className="d-flex m-2 input_box_1">
+              <div className="d-flex m-2  input_box_1">
                 <input
                   id="customerName"
+                  className="rounded"
                   name="customerName"
                   required=""
                   placeholder="NAME"
@@ -58,7 +60,8 @@ const Footer = () => {
                 />
 
                 <input
-                  id="customerEmail"
+                  id="customerName"
+                  className="rounded"
                   name="customerEmail"
                   required=""
                   placeholder="EMAIL"
@@ -68,14 +71,16 @@ const Footer = () => {
 
               <div className="d-flex mx-2 input_box_1">
                 <input
-                  id="customerPhone"
+                  id="customerName"
+                  className="rounded"
                   name="customerPhone"
                   placeholder="PHONE NUMBER  "
                   pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
                   type="tel"
                 />
                 <input
-                  id="customerPhone"
+                  id="customerName"
+                  className="rounded"
                   name="customerPhone"
                   placeholder="PHONE NUMBER "
                   type="tel"
@@ -84,13 +89,14 @@ const Footer = () => {
 
               <textarea
                 id="customerNote"
+                className="rounded"
                 name="customerNote"
                 placeholder="MESSAGE"
                 required=""
                 rows="4"
               ></textarea>
-              <div className="button">
-                <button id="customerOrder">SUBMIT</button>
+              <div className="button rounded">
+                <button className="rounded" id="customerOrder">SUBMIT</button>
               </div>
             </form>
           </div>
@@ -105,11 +111,12 @@ const Footer = () => {
               <img src={signpost} width="35px " height="40px" alt="errr" />
               <div className="mx-2 ">
                 {" "}
-                adress <br />
-                flat not 102 kanchan palace{" "}
+                address <br />
+                Hno.163 Ambika Vihar near PHC Gole Gujral, Talab Tillo, Jammu,
+                Jammu and Kashmir 180002{" "}
               </div>
             </div>
-            <div className="line"></div>
+            {/* <div className="line"></div>
             <div className="address d-flex col  m-3   align-items-center">
               <img src={phone_call} width="30px " height="30px" alt="errr" />
               <div className="mx-2">
@@ -117,47 +124,61 @@ const Footer = () => {
                 phone <br />
                 749-861-2751{" "}
               </div>
-            </div>
+            </div> */}
             <div className="line"></div>
             <div className="address d-flex col  m-3   align-items-center ">
               <img src={mail} width="30px " height="30px" alt="errr" />
               <div className="mx-2">
                 {" "}
-                email adress <br />
-                sumitbarmecha12@gmail.com{" "}
+                email adress : team  <br />
+                team.sharvafoundation@gmail.com{" "}
+                
               </div>
             </div>
             <div className="line"></div>
-            <div className="address d-flex col  m-3   align-items-center">
-              <img src={clock} width="30px " height="30px" alt="errr" />
+            <div className="address d-flex col  m-3   align-items-center ">
+              <img src={handshake} width="30px " height="30px" alt="errr" />
               <div className="mx-2">
                 {" "}
-                working hours/days <br />
-                7am-9pm/monday-friday{" "}
+                email adress : manager<br />
+                {" "}
+                managersharvafoundation@gmail.com 
+              </div>
+            </div>
+            <div className="line"></div>
+            <div className="address d-flex col  m-3   align-items-center ">
+              <img src={hr} width="30px " height="30px" alt="errr" />
+              <div className="mx-2">
+                {" "}
+                email adress : hr <br />
+                 hr.sharvafoundation@gmail.com
               </div>
             </div>
           </div>
           <div className="footer_section_2 d-flex row">
             <div className="footer_2 d-flex col justify-content-evenly ">
-              <div className="my_account">
-                <h5>OUR INITIATIVES</h5>
-                <ul>
-                  <li>ABOUT US </li>
-                  <li>contact us </li>
-                  <li>my account</li>
-                  <li>order history</li>
-                  <li>covid 19</li>
-                </ul>
-              </div>
-              <div className="main_Feature ">
-                <h5>MAIN FEATURES </h5>
-                <ul>
-                  <li>super fast magneto theme</li>
-                  <li>super fast magneto theme</li>
-                  <li>super fast magneto theme</li>
-                  <li>super fast magneto theme</li>
-                  <li>super fast magneto theme</li>
-                </ul>
+              <div className="for_mobile_view">
+                <div className="my_account">
+                  <h5>OUR INITIATIVES</h5>
+                  <ul>
+                    <li>food for cause</li>
+                    <li>strive with pride</li>
+                    <li>give her wings to fly</li>
+                    <li>project green</li>
+                    <li>blood donation</li>
+                  </ul>
+                </div>
+                <div className="main_Feature ">
+                  <h5>QUICK LINKS </h5>
+                  <ul>
+                    <li>Home </li>
+                    <li>About Us</li>
+                    <li>Our Initiatives</li>
+                    <li>Contact Us</li>
+                    <li>Become a Volenteer</li>
+                    <li>Donate Now</li>
+                  </ul>
+                </div>
               </div>
               <div className="be_the_first">
                 <h5>OUR VISION</h5>
@@ -173,8 +194,17 @@ const Footer = () => {
               </div>
             </div>
             <div className="line"></div>
-            <div className="credit m-3">
-              <div className="cards_image">All rights reserved </div>
+            <div className="credit d-flex col justify-content-evenly   ">
+              <div className="cards_image">
+                © Copyrights 2020 | sharvafoundation.org
+              </div>
+              <div className="socials">
+                <img src={instagram} alt="" />
+                <img src={instagram} alt="" />
+                <img src={instagram} alt="" />
+                <img src={instagram} alt="" />
+                <img src={instagram} alt="" />
+              </div>
             </div>
           </div>
         </div>

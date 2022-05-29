@@ -50,8 +50,8 @@ const DonationCard = (props) => {
             autoPlay={props.deviceType !== "mobile" ? true : false}
             autoPlaySpeed={1000}
             keyBoardControl={true}
-            customTransition="all .5"
-            transitionDuration={5000}
+            // customTransition="all .5"
+            transitionDuration={4000}
             containerClass="carousel-container"
             removeArrowOnDeviceType={["tablet", "mobile"]}
             deviceType={props.deviceType}
@@ -74,7 +74,7 @@ const DonationCard = (props) => {
                   uncalled situation
                 </p>
               </div>
-              <button className="btn button text-white">donate now</button>
+              <button className="rounded btn button text-white">donate now</button>
             </div>
             <div className="card bg-transparent">
               <img
@@ -92,7 +92,7 @@ const DonationCard = (props) => {
                   social landscape
                 </p>
               </div>
-              <button className="btn button text-white">donate now</button>
+              <button className="rounded btn button text-white">donate now</button>
             </div>
             <div className="card bg-transparent">
               <img
@@ -111,7 +111,7 @@ const DonationCard = (props) => {
                   awareness
                 </p>
               </div>
-              <button className="btn button text-white">donate now</button>
+              <button className="rounded btn button text-white">donate now</button>
             </div>
             <div className="card bg-transparent">
               <img
@@ -128,7 +128,7 @@ const DonationCard = (props) => {
                   drives where we served cooded and packed meals to the needy.
                 </p>
               </div>
-              <button className="btn button text-white">donate now</button>
+              <button className="rounded btn button text-white">donate now</button>
             </div>
             <div className="card bg-transparent">
               <img
@@ -150,7 +150,7 @@ const DonationCard = (props) => {
                   awareness
                 </p>
               </div>
-              <button className="btn button text-white">donate now</button>
+              <button className="rounded btn button text-white">donate now</button>
             </div>
           </Carousel>
         </div>
