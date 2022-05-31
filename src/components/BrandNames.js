@@ -3,11 +3,12 @@ import brand_img from "./images/amazon-pay.png";
 const BrandNames = () => {
   return (
     <div><div className="brands_working_with container rounded text-dark fw-5">
-    <p className=' m-0 brand_name_title '>
+    <h1 className=' m-0 brand_name_title '>
 
 
 BRANDS THAT HAVE HELPED US IN OUR INITIATIVES
-    </p>
+    </h1>
+    <div className="line"></div>
         <div className="brand_names m-0 ">
             <img width='120px' src={brand_img} alt="error" className="brand" />
             <img width='120px' src={brand_img} alt="error" className="brand" />

@@ -24,6 +24,7 @@ const MerchantDise = () => {
       <div className="merchandise ">          
         {/* <h3>Lorem, ipsum dolor sit amet consectetur adipisicing.</h3> */}
         <h1>OWN YOURS NOW! </h1>
+        <div className="line"></div>
         <div className="merchandise_main_box">
           <div
             id="carouselExampleIndicators"          

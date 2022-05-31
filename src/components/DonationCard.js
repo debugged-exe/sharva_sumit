@@ -30,7 +30,7 @@ const DonationCard = (props) => {
   return (
     <div className="donation_background ">
       <div className="gradient_for_donation_card">
-        <h1 className="text-yellow ">Our Recent Causes to Serve Better</h1>
+        <h1 className="text-yellow ">Our Recent Causes to Serve Better</h1><div className="line"></div>
         <div className="title text-white">
           Making society a better place to live in is neither a one-day task nor
           an individual’s job. Well, it is not impossible too but we, Sharva

@@ -177,6 +177,12 @@ html {
   margin: 15px;
   padding: 15px;
 }
+.gradient_for_donation_card .line{
+  width: 50%;
+  margin: 5px ;
+  border-width:1px;
+  margin-bottom: 25px;
+}
 .gradient_for_donation_card .title {
   margin: 15px;
   padding: 15px;
@@ -263,6 +269,16 @@ html {
 /* brand name css  */
 .brands_working_with {
   margin: 100px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content:center ;
+  align-items: center;
+}
+.brands_working_with .line{
+  width: 70%;
+  margin: 5px ;
+  border-width:1px;
+  margin-bottom: 25px;
 }
 .brand_names {
   display: flex;
@@ -277,6 +293,23 @@ html {
 /* css for gallery section */
 .gallery_section {
   margin: auto;
+}
+
+.gallery_heading h1{margin: 10px;padding: 15px;
+margin-bottom: 0px;
+padding-bottom: 0px;
+}
+.gallery_heading .line{
+  width: 30%;
+  margin: 5px ;
+  border-width:1px;
+  margin-bottom: 25px;
+}
+.gallery_heading{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .gallery_section_img {
   display: flex;
@@ -314,24 +347,40 @@ html {
   padding: 15px;
   border-radius: 25px;
 }
-.headings_about_us h5,
+
 .headings_about_us h1 {
   text-align: center;
 }
+.heading_contact .line{
+  width: 45%;
+  margin: 5px ;
+  border-width:1px;
+  margin-bottom: 25px;
+}
+
 .heading_contact h5,
 .heading_contact h1 {
-  text-align: center;
+  /* text-align: center; */
   width: 100%;
-  /* text-align: justify; */
+  text-align: justify;
+}
+.headings_about_us .line{
+  width: 45%;
+  margin: 5px ;
+  border-width:1px;
+  margin-bottom: 25px;
 }
 
 .headings_about_us h1 {
   width: 45%;
-  text-align: start;
+  text-align:center;
   padding: 0px 25px;
 }
 .headings_about_us {
   display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
   justify-content: flex-end;
 }
 @media only screen and (max-width: 425px) {
@@ -437,6 +486,8 @@ html {
 }
 .contact_us_form .button {
   width: 100%;
+  justify-content: center;
+    display: flex;
 }
 .contact_us_form .button button {
   width: 90%;
@@ -481,6 +532,12 @@ footer .line {
   align-items: center;
   margin: 30px;
   padding: 50px;
+}
+.merchandise .line{
+  width: 40%;
+  margin: 5px ;
+  border-width:1px;
+  margin-bottom: 25px;
 }
 .merchandise_main_box {
   display: flex;
@@ -662,6 +719,18 @@ figure {
   .gallery_section_img img {
     width: 100%;
   }
+  .gallery_heading .line{
+    width: 80%;
+  }
+  .merchandise .line{
+    width: 100%;
+  }
+  .heading_contact h1{
+    text-align: center;
+  }
+  .heading_contact .line{
+    width: 100%;
+  }
   .merchandise_main_box .line {
     position: absolute;
     /* margin-top: 300px; */
@@ -674,6 +743,13 @@ figure {
     justify-content: flex-end;
     width: 100vw;
   }
+  .contact_us_form input::placeholder{
+    font-size: small;
+  }
+.gallery_heading h1{display: flex !important;}
+
+
+
   .main_div_about {
     flex-direction: column-reverse;
     justify-content: center;
@@ -712,7 +788,7 @@ figure {
     width: 100%;
   }
   .merchandise_main_box .merchandise_content {
-    width: 95%;
+    width: 90%;
   }
   .merchandise_main_box .line {
     position: relative;
@@ -747,9 +823,16 @@ figure {
   .headings_about_us {
     display: flex;
     justify-content: center;
+    align-items: center;
+  }
+  .headings_about_us .line{
+    width: 70%;
   }
   .headings_about_us h1 {
     width: 100%;
+  }
+  .brand_name_title{
+    font-size: 26px;
   }
   .map_image,.map_image_box{
     width: 100%;

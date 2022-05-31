@@ -1,9 +1,6 @@
 import React from "react";
 import map_image from "./images/mapbox.png";
-import hr from "./images/hr.png";
-import phone_call from "./images/phone-call.png";
-import group from "./images/group.png";
-import clock from "./images/clock.png";
+import hr from "./images/hr.png"; 
 import instagram from "./images/instagram.png";
 import handshake from "./images/handshake.png";
 import mail from "./images/mail.png";
@@ -40,6 +37,7 @@ const Footer = () => {
             <div className="heading_contact">
               {" "}
               <h1>CONTACT US</h1>
+              <div className="line"></div>
               <h5 className="text-yellow">
                 Any help that goes undocumented can result in the failure of
                 someone’s livelihood and survival. It is of utmost importance

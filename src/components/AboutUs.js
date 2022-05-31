@@ -7,7 +7,8 @@ const AboutUs = () => {
     <div className="container my-5 py-5">
       <div className="headings_about_us   ">
         {/* <h5 >Lorem ipsum dolor sit amet.</h5>{" "} */}
-        <h1 >ABOUT SHARVA</h1>
+        <h1 >ABOUT SHAR VA</h1>
+        <div className="line"></div>
       </div>
       <div className="main_div_about d-flex ">
         <div className="content_about d-flex row justify-content-center ">
